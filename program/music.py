@@ -53,7 +53,7 @@ async def play(c: Client, m: Message):
         ]
     )
     if m.sender_chat:
-        return await m.reply_text("you're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
+        return await m.reply_text("**😕you're an __Anonymous.\n\n🇬🇧Gᴏ ᴛᴏ https://t.me/TeslaSupportChat Fᴏʀ ʜᴇʟᴘ**")
     try:
         aing = await c.get_me()
     except Exception as e:
